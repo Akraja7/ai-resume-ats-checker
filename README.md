@@ -1,71 +1,87 @@
-# ai-resume-ats-checker
-AI-powered resume analyzer that scores your CV, flags ATS issues, and gives improvement suggestions using Google Gemini.
-# 🧠 AI Resume ATS Checker
+# Welcome to React Router!
 
-An AI-powered web app that analyzes your resume like a real ATS (Applicant Tracking System). 
-Upload your CV and get an instant score, problem detection, and smart suggestions to improve it.
+A modern, production-ready template for building full-stack React applications using React Router.
 
-## ✨ Features
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-- 📄 Upload and parse your resume
-- 🤖 AI analysis powered by Google Gemini via Puter.js
-- 📊 ATS compatibility score with detailed rating
-- ❌ Detects problems (missing keywords, formatting issues, weak sections)
-- ✅ Highlights strong points in your resume
-- 💡 Gives specific suggestions to fix every problem
+## Features
 
-## 🛠️ Tech Stack
+- 🚀 Server-side rendering
+- ⚡️ Hot Module Replacement (HMR)
+- 📦 Asset bundling and optimization
+- 🔄 Data loading and mutations
+- 🔒 TypeScript by default
+- 🎉 TailwindCSS for styling
+- 📖 [React Router docs](https://reactrouter.com/)
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Runtime:** Node.js
-- **AI:** Google Gemini (via Puter.js)
-- **File Handling:** PDF/text resume parsing
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js installed
-- Puter.js account (free)
+## Getting Started
 
 ### Installation
 
+Install the dependencies:
+
 ```bash
-git clone https://github.com/Akraja7/ai-resume-ats-checker.git
-cd ai-resume-ats-checker
 npm install
 ```
 
-### Run
+### Development
+
+Start the development server with HMR:
 
 ```bash
-node server.js
+npm run dev
 ```
 
-Then open `http://localhost:3000` in your browser.
+Your application will be available at `http://localhost:5173`.
 
-## 📸 Preview
+## Building for Production
 
-<!-- Add a screenshot here after uploading -->
-### ATS Score & Analysis
-<img width="1920" height="1080" alt="screenshot_1_dashboard" src="https://github.com/user-attachments/assets/cc0eda6f-034d-4ebe-824a-c2ced87fc59b" />
+Create a production build:
 
-### Dashboard
-<img width="1920" height="1080" alt="screenshot_2_analyzing" src="https://github.com/user-attachments/assets/de9d6d44-0709-475d-8358-d25b20411ee1" />
+```bash
+npm run build
+```
 
-### Resume Analysis in Progress
-<img width="1920" height="1080" alt="screenshot_3_ats_score" src="https://github.com/user-attachments/assets/8bd6df79-c241-4b94-9f28-da5315bf4d66" />
+## Deployment
 
-### Detailed AI Feedback
-<img width="1920" height="1080" alt="screenshot_4_detailed_feedback" src="https://github.com/user-attachments/assets/1bd63fc8-2db8-49bc-b1fb-1fd73066d0a9" />
+### Docker Deployment
 
+To build and run using Docker:
 
+```bash
+docker build -t my-app .
 
-## 🔮 Future Plans
+# Run the container
+docker run -p 3000:3000 my-app
+```
 
-- [ ] Support for multiple job description matching
-- [ ] Export improved resume as PDF
-- [ ] Score history & comparison
+The containerized application can be deployed to any platform that supports Docker, including:
 
-## 📄 License
+- AWS ECS
+- Google Cloud Run
+- Azure Container Apps
+- Digital Ocean App Platform
+- Fly.io
+- Railway
 
- License by @安烨
+### DIY Deployment
+
+If you're familiar with deploying Node applications, the built-in app server is production-ready.
+
+Make sure to deploy the output of `npm run build`
+
+```
+├── package.json
+├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
+├── build/
+│   ├── client/    # Static assets
+│   └── server/    # Server-side code
+```
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+---
+
+Built with ❤️ using React Router.
