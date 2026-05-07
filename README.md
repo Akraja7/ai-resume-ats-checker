@@ -46,7 +46,12 @@ Then open `http://localhost:3000` in your browser.
 ## 📸 Preview
 
 <!-- Add a screenshot here after uploading -->
-> Screenshot coming soon
+<img width="1920" height="1080" alt="screenshot_1_dashboard" src="https://github.com/user-attachments/assets/cc0eda6f-034d-4ebe-824a-c2ced87fc59b" />
+<img width="1920" height="1080" alt="screenshot_2_analyzing" src="https://github.com/user-attachments/assets/de9d6d44-0709-475d-8358-d25b20411ee1" />
+<img width="1920" height="1080" alt="screenshot_3_ats_score" src="https://github.com/user-attachments/assets/8bd6df79-c241-4b94-9f28-da5315bf4d66" />
+<img width="1920" height="1080" alt="screenshot_4_detailed_feedback" src="https://github.com/user-attachments/assets/1bd63fc8-2db8-49bc-b1fb-1fd73066d0a9" />
+
+
 
 ## 🔮 Future Plans
 
@@ -56,4 +61,4 @@ Then open `http://localhost:3000` in your browser.
 
 ## 📄 License
 
-MIT License
+ License by @安烨
